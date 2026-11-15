@@ -1,28 +1,30 @@
 # 🌤️ Live Weather CLI Dashboard
 
-A modern, interactive Command Line Interface (CLI) dashboard built with Python to fetch and display real-time weather information using the Open-Meteo API. Designed as a lightweight, clean developer portfolio project.
+Aplikasi dasbor Command Line Interface (CLI) modern dan interaktif yang dibangun menggunakan Python untuk mengambil serta menampilkan informasi cuaca secara *real-time* melalui Open-Meteo REST API. Dirancang sebagai proyek portofolio pengembang yang ringan dan bersih.
 
 ---
 
-## ✨ Features
-- **Real-Time Data**: Fetches live weather conditions (temperature, wind speed, weather codes, etc.) via Open-Meteo API without requiring an API key.
-- **Rich Terminal UI**: Styled cleanly using the `rich` library for enhanced developer experience and readability.
-- **Lightweight & Fast**: Minimal dependencies, optimized for quick execution inside any Linux terminal environment (Fedora, Ubuntu, etc.).
+## ✨ Fitur Utama
+- **Data Cuaca Real-Time**: Mengambil kondisi cuaca terkini (suhu udara, kelembapan, kecepatan angin, dan status cuaca) di berbagai kota di dunia melalui Open-Meteo API tanpa memerlukan *API key*.
+- **Tampilan Terminal Modern (Rich UI)**: Menggunakan pustaka `rich` untuk menyajikan tabel dan panel terminal yang rapi serta mudah dibaca.
+- **Ringan & Cepat**: Minim dependensi dan dioptimalkan untuk berjalan lancar di lingkungan terminal Linux (Fedora, Ubuntu, dll.).
 
 ---
 
-## 🛠️ Tech Stack
-- **Language**: Python 3.x
-- **Libraries**: 
-  - `requests` (HTTP client for API integration)
-  - `rich` (Terminal formatting and gorgeous UI rendering)
-- **API**: Open-Meteo Weather API
+## 🛠️ Teknologi yang Digunakan
+- **Bahasa Pemrograman**: Python 3.x
+- **Pustaka (Libraries)**: 
+  - `requests` (HTTP client untuk integrasi REST API)
+  - `rich` (Pemformatan tabel dan antarmuka terminal)
+- **API**: Open-Meteo Live Weather API
 
 ---
 
-## 🚀 Installation & Usage
+## 🚀 Instalasi & Cara Penggunaan
 
-1. **Clone the repository:**
+1. **Kloning repositori ini:**
    ```bash
    git clone [https://github.com/moksark/live-weather-cli.git](https://github.com/moksark/live-weather-cli.git)
    cd live-weather-cli
+
+
